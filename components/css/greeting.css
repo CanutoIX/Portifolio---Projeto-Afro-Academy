@@ -1,0 +1,37 @@
+.greeting {
+   height: calc(100vh - 4rem);
+   display: flex;
+   align-items: center;
+}
+
+.dev-info span{
+    color: var(--primary);
+}
+
+.dev-info h1 {
+    font-size: 3rem;
+}
+
+.dev-info p {
+    max-width: 27.5rem;
+    font-size: 1.25rem;
+    margin: 3rem 0 4rem;
+    color: var(--text);
+}
+
+.dev-info a {
+    background-color: var(--primary);
+    color: var(--background);
+    display: block;
+    width: 16.75rem;
+    padding: 1rem 0;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: filter 0.2s;
+
+}
+
+.dev-info a:hover {
+    filter: brightness(125%);
+}
