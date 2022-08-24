@@ -1,0 +1,35 @@
+.header {
+    padding: 1rem 0;
+    max-width: 1136px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Source Code Pro',monospace;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+.header .logo span {
+    color: var(--primary);
+}
+
+.header a {
+    font-family: 'Inter', monospace;
+    color: var(--link);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.header a + a {
+    margin-left: 1rem;
+}
+
+
+.header a:hover {
+    color: var(--primary);
+}
