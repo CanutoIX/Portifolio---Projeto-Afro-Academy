@@ -1,6 +1,6 @@
 .header {
-    padding: 1rem 0;
-    max-width: 1136px;
+    padding: 1rem;
+    max-width: calc(1136px + 2rem);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -32,4 +32,14 @@
 
 .header a:hover {
     color: var(--primary);
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        justify-content: center;
+    }
+
+    .header nav{
+        display: none;
+    }
 }
