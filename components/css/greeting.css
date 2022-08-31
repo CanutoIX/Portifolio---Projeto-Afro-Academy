@@ -1,5 +1,6 @@
 .greeting {
    height: calc(100vh - 4rem);
+   margin: 0 1.5rem 0 1.5rem;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -17,7 +18,6 @@
     max-width: 27.5rem;
     font-size: 1.25rem;
     margin: 3rem 0 4rem;
-    color: var(--text);
 }
 
 .dev-info a {
@@ -54,5 +54,7 @@
 }
 
 @media screen and (max-width: 975px) {
-    
+    .img {
+        display: none;
+    }
 }
